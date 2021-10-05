@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MyFramework"
-  spec.version      = "2.0.0"
+  spec.version      = "3.0.0"
   spec.summary      = "A short description of MyFramework."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/JakfarShodiq/xcframework", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/JakfarShodiq/xcframework.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
